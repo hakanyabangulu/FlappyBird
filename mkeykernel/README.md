@@ -12,14 +12,7 @@ See the repo [mkernel](http://github.com/arjun024/mkernel) which is a minimal ke
 
 #### Build commands ####
 ```
-nasm -f elf32 kernel.asm -o kasm.o
-```
-```
-gcc -m32 -c kernel.c -o kc.o
-```
-```
-ld -m elf_i386 -T link.ld -o kernel kasm.o kc.o
-```
+make
 
 If you get the following error message:
 ```
@@ -34,7 +27,7 @@ gcc -fno-stack-protector -m32 -c kernel.c -o bin/kc.o
 
 #### Test on emulator ####
 ```
-qemu-system-i386 -kernel kernel
+qemu-system-x86_64 -kernel kernel.bin
 ```
 
 #### Get to boot ####
