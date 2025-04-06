@@ -12,7 +12,8 @@ See the repo [mkernel](http://github.com/arjun024/mkernel) which is a minimal ke
 
 #### Build commands ####
 ```
-make
+This project has a Makefile that's why just do this :
+ make
 
 If you get the following error message:
 ```
