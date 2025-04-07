@@ -28,7 +28,7 @@
 #define GRAVITY 1
 #define FLAP_VELOCITY -2
 #define PIPE_SPEED 2
-#define FPS 45
+#define FPS 60
 #define UPDATE_INTERVAL 15
 #define MAX_PIPES 3
 #define PIPE_SPACING 30
@@ -241,7 +241,7 @@ void update() {
 
 /* FPS kontrolü için kısa gecikme */
 void delay() {
-    for (int i = 0; i < 70000000 / FPS; i++);
+    for (int i = 0; i < 90000000 / FPS; i++);
     write_port(0x21, 0xFD);
 }
 
