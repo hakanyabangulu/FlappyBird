@@ -19,7 +19,7 @@ Requirements
 
 Setup
 
-    Clone repo:git clone https://github.com/hakanyabangulu/FlappyBird/mkeykernel
+    Clone repo:git clone https://github.com/hakanyabangulu/FlappyBird/mkeykernel.git
 
 Install dependencies (Ubuntu/Debian):
 
