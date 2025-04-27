@@ -1,7 +1,4 @@
-Flappy Bird Kernel
-
-    A minimalist Flappy Bird game running in a kernel environment using VGA text mode (80x25). Written in C, designed for QEMU.
-    Features
+Flappy Bird at mkeykernel
 
 Text-Based Graphics: Renders bird, pipes, ground, and sky in VGA text mode.
 Controls:
