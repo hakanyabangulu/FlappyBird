@@ -9,7 +9,7 @@ sudo apt update && sudo apt install libncurses5-dev libncursesw5-dev
 
 ### Debugging:
 ```
-gcc -o flappy_bird flappy_bird.c -lncurses
+make
 ```
 
 ### Running the game:
