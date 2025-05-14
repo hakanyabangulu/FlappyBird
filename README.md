@@ -1,2 +1,2 @@
 # FlappyBird
-Flappy Bird in 6 different environments.
+Flappy Bird in different environments.
